@@ -21,3 +21,6 @@ Wilcoxon signed-rank test:
   
 One-way ANOVA:
   [p,tbl,stats] = anova1(y,group);
+  
+Benjamini-Hochberg FDR correction
+  FDR = mafdr(PValues,'BHFDR',true)
