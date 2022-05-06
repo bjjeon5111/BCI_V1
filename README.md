@@ -1,6 +1,6 @@
 # BCI_V1
 Codes used in the V1 BCI manuscript
-Includes code used to perform k-nearest neighbor (KNN) decoding, representational-drift decoding, permutation test for testing the 2D Gaussian fit, and 2-sample proportions z-test.
+Includes code used to perform k-nearest neighbor (KNN) decoding, representational-drift decoding, permutation test for testing the 2D Gaussian fit, and 2-sample proportions Z-test.
 
 --List of standard Matlab statistical test functions used within the paper--
 
