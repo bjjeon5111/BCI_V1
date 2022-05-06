@@ -22,6 +22,9 @@ Wilcoxon signed-rank test:
   
 One-way ANOVA:
   [p,tbl,stats] = anova1(y,group);
-  
+ 
+paired sample t-test
+  [h,p] = ttest(x,y);
+    
 Benjamini-Hochberg FDR correction:
   FDR = mafdr(PValues,'BHFDR',true);
