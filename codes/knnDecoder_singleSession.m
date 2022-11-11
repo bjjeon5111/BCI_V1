@@ -14,7 +14,7 @@ function [acc,confusionMat,decoder_config] = knnDecoder_singleSession(DataMatrix
 %       orientation and stimulus spatial frequency that matches the format of
 %       the DataMatrix.
 %   numNeurons - scalar, limit for the number of neurons to use in decoding. Number of neurons cannot be larger than the total number of neurons in the DataMatrix 
-%   numTrials - scalar, number of trials to use for decoding. cannot be larger than the minimum number of trials available for the presented stimuli
+%   numTrials - scalar, number of trials to use for decoding. cannot be larger than the minimum number of trials available for the presented stimuli.  If the number of trials selected is less than the number of available trials, then the trials are randomly selected.
 %   chosenK - scalar, number of neighbors to consider in the knn classification.
 
 % Output 
